@@ -1,0 +1,127 @@
+.container{
+    width: 470px;
+    min-width: 470px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.card{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    /* top: 0;
+    right: 3rem; */
+    top: 50%;
+    left:50%;
+}
+
+.tag-block{
+    width: 20px;
+    background-color: lightcoral;
+}
+
+.card-box-up{
+    background: #00D9FF;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px
+}
+.card-box-up .card-title{
+    font-size: 1.5rem;
+    color:white;
+    margin: 0;
+}
+
+.card-box-up .card-price-box{
+    display: flex;
+    width: 100%;
+    align-items: end;
+    padding: 15px 0;
+}
+
+.card-price-box .price{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    color: #fff;
+}
+
+.card-price-box .month{
+    color: #D3F6FF;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.card-price-box .discount{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #02CDF1;
+    color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-left: 15px;
+}
+
+.card-box-up .card-sub-title{
+    margin: 0;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.card-box-down{
+    padding: 30px;
+}
+
+.card-box-down .card-desc{
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.card-box-down .card-desc i{
+    color:#34D6AA;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.card-box-down .card-desc li{
+    padding: 10px 0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 4rem;
+    padding:1rem 0;
+    text-decoration: none;
+    
+}
+.card-box-down .btn{
+    margin-top: 3rem 0;
+}
+
+.btn button{   
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    /* text-align: center; */
+}
