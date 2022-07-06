@@ -142,7 +142,7 @@ const displayMenuButtons = () => {
             // console.log(e.target.dataset)
             const category = e.target.dataset.id;
             const menuCategory = menu.filter((menuItem) => {
-                console.log(menuItem.category);
+                // console.log(menuItem.category);
                 if (menuItem.category === category) {
                     return menuItem;
                 }
